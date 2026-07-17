@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: trips
+
+    columns:
+      - name: trip_id
+        data_tests:
+          - unique
+          - not_null
+
+      - name: vehicle_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: source('source_silver', 'vehicles')
+              field: vehicle_id
+
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: source('source_silver', 'customers')
+              field: customer_id
+
+      - name: driver_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: source('source_silver', 'drivers')
+              field: driver_id
