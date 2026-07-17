@@ -29,7 +29,7 @@ This project demonstrates incremental data processing, dbt transformations, SCD 
 ## Key Features
 
 - Medallion Architecture (Bronze → Silver → Gold)
--- Incremental data ingestion using PySpark Structured Streaming
+- Incremental data ingestion using PySpark Structured Streaming
 - Incremental transformations using dbt Models
 - Slowly Changing Dimensions (SCD Type 2) using dbt Snapshots
 - Data quality validation using dbt Tests
