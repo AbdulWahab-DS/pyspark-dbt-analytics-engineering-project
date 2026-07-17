@@ -2,7 +2,7 @@
 
 ## Overview
 
-An end-to-end Analytics Engineering project built using **Databricks**, **PySpark**, and **dbt Cloud** following the **Medallion Architecture (Bronze → Silver → Gold)**.
+An end-to-end Analytics Engineering project built using **Databricks**, **PySpark Structured Streaming**, and **dbt Cloud** following the **Medallion Architecture (Bronze → Silver → Gold)**.
 
 This project demonstrates incremental data processing, dbt transformations, SCD Type 2 snapshots, and data quality testing.
 
@@ -29,11 +29,10 @@ This project demonstrates incremental data processing, dbt transformations, SCD 
 ## Key Features
 
 - Medallion Architecture (Bronze → Silver → Gold)
-- Incremental ETL processing using PySpark
+-- Incremental data ingestion using PySpark Structured Streaming
 - Incremental transformations using dbt Models
 - Slowly Changing Dimensions (SCD Type 2) using dbt Snapshots
 - Data quality validation using dbt Tests
-- Version control using Git and GitHub
 
 ---
 
