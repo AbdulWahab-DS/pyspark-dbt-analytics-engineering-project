@@ -1,15 +1,44 @@
-Welcome to your new dbt project!
+# PySpark + dbt Analytics Engineering Project
 
-### Using the starter project
+## Overview
 
-Try running the following commands:
-- dbt run
-- dbt test
+An end-to-end Analytics Engineering project built using **Databricks**, **PySpark**, and **dbt Cloud** following the **Medallion Architecture (Bronze → Silver → Gold)**.
 
+This project demonstrates incremental data processing, dbt transformations, SCD Type 2 snapshots, and data quality testing.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+---
+
+## Project Architecture
+
+![Project Architecture](docs/architecture.png)
+
+---
+
+## Tech Stack
+
+- Databricks
+- PySpark
+- Delta Lake
+- dbt Cloud
+- SQL
+- Git
+- GitHub
+
+---
+
+## Key Features
+
+- Medallion Architecture (Bronze → Silver → Gold)
+- Incremental ETL processing using PySpark
+- Incremental transformations using dbt Models
+- Slowly Changing Dimensions (SCD Type 2) using dbt Snapshots
+- Data quality validation using dbt Tests
+- Version control using Git and GitHub
+
+---
+
+## Author
+
+**Abdul Wahab**
+
+GitHub: https://github.com/AbdulWahab-DS
